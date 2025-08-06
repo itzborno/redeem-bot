@@ -2,7 +2,7 @@ from keep_alive import keep_alive
 import telebot
 
 # বট টোকেন দিন (নিরাপত্তার জন্য GitHub এ .env ব্যবহার করা ভালো)
-TOKEN = 'আপনার_বট_টোকেন_এখানে_দিবেন'
+TOKEN = '7798531358:AAGq2Wo2lFJ3zVz4rX2oxjOL-iWMHELH-Mo'
 bot = telebot.TeleBot(TOKEN)
 
 # Keep alive HTTP server চালু করা (Render এ port bind করার জন্য)
@@ -44,3 +44,4 @@ def handle_redeem(message):
 
 # বট চালু করা
 bot.polling()
+
